@@ -32,8 +32,8 @@ DEPLOY_BRANCH="${BRANCH}${DEPLOY_SUFFIX}"
 cd $SRC_DIR
 COMMIT_AUTHOR_NAME="$( git log --format=%an -n 1 ${COMMIT_SHA} )"
 COMMIT_AUTHOR_EMAIL="$( git log --format=%ae -n 1 ${COMMIT_SHA} )"
-COMMIT_COMMITTER_NAME="$( git log --format=%cn -n 1 ${COMMIT_SHA} )"
-COMMIT_COMMITTER_EMAIL="$( git log --format=%ce -n 1 ${COMMIT_SHA} )"
+COMMIT_COMMITTER_NAME="News-VIPGo-MU"
+COMMIT_COMMITTER_EMAIL="dl-spp-team@news.com.au"
 
 
 # Run some checks
